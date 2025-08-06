@@ -22,6 +22,7 @@ Java é uma das linguagens de programação mais utilizadas no mundo, presente e
 
 ```bash
 Java-lab/
+├── src/
 ├── introducao/
 │   ├── Aula01HelloWorld.java
 │   ├── Aula02TiposPrimitivos.java
