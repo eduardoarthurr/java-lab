@@ -21,9 +21,9 @@ public class Aula02TiposPrimitivos {
         //* referencias sempre se iniciam com letras maiusculas, é uma convenção para diferenciar classes dos tipos primitivos que sempre se iniciam com letra minusculas.
         //* sempre que for um conjunto de caraceteres deve ser declarado com aspas duplas e nao com aspas simples como o tipo primitivo char
         //string
-        String name = "Eduardo";
+        String Name = "Eduardo";
 
-        System.out.println("Qual é seu nome:" + name);
+        System.out.println("Qual é seu nome:" + Name);
         System.out.println("Qual sua idade:" + age);
         System.out.println("Qual sua altura:" + height);
         System.out.println("Qual é seu genero:" + gender);

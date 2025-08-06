@@ -10,6 +10,8 @@ public class Aula05OperadoresLogicosERelacionais {
         //a <= b   Isso retorna verdadeiro, já que 'a' é menor ou igual a 'b'
         //a == b   Isso retorna falso, já que 'a' não é igual a 'b'
         //a != b   Isso retorna verdadeiro, já que 'a' é diferente de 'b'
+        //Strings nao podem ser compaparadas com operadores entao é usado .equals
+        //
 
         // E ( and ) <- retorna verdadeiro se todas condições forem verdadeiras
         // Ou ( or ) <- retorna verdadeiro se apenas umas condição for verdadeira
