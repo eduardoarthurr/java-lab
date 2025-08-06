@@ -1,6 +1,6 @@
 package introdução;
 
-public class TiposPrimitivos {
+public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
 
         //Tipos primitivos

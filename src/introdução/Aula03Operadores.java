@@ -1,6 +1,6 @@
 package introdução;
 
-public class operadores {
+public class Aula03Operadores {
     public static void main(String[] args) {
 
         //Operadores Aitimeticos (+ , - , /, * , %, ++ , -- )
