@@ -23,11 +23,11 @@ Java é uma das linguagens de programação mais utilizadas no mundo, presente e
 ```bash
 Java-lab/
 ├── introducao/
-│   ├── hello_world.java
-│   ├── EntradaDeDados.java
-│   ├── operadores.java
-│   ├── DesafioOperacoes.java
-│   ├── TiposPrimitivos.java
-│   └── DesafioAluno.java
+│   ├── Aula01HelloWorld.java
+│   ├── Aula02TiposPrimitivos.java
+│   ├── Aula03operadores.java
+│   ├── Aula04EntradaDeDados.java
+│   ├── DesafioAluno.java
+│   └── DesafioOperacoes.java
 └── README.md
 
