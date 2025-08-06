@@ -1,7 +1,7 @@
-package introdução;
+package introducao;
 
 import java.util.Scanner;
-public class DesafioOperacoes {
+public class Aula04DesafioOperacoes {
     public static void main(String[] args) {
         System.out.println("================================");
         System.out.println("     OPERAÇÕES ARITIMÉTICAS      ");

@@ -1,4 +1,4 @@
-package introdução;
+package introducao;
 
 public class Aula01HelloWorld {
 

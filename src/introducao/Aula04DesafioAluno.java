@@ -1,7 +1,7 @@
-package introdução;
+package introducao;
 
 import java.util.Scanner;
-public class DesafioAluno {
+public class Aula04DesafioAluno {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("==================================");

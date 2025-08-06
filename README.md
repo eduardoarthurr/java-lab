@@ -20,14 +20,19 @@ Java é uma das linguagens de programação mais utilizadas no mundo, presente e
 
 ## 📂 Estrutura do Repositório
 
-```bash
+``` bash
 Java-lab/
 ├── introducao/
 │   ├── Aula01HelloWorld.java
 │   ├── Aula02TiposPrimitivos.java
-│   ├── Aula03operadores.java
+│   ├── Aula03Operadores.java
 │   ├── Aula04EntradaDeDados.java
-│   ├── DesafioAluno.java
-│   └── DesafioOperacoes.java
+│   ├── Aula04DesafioAluno.java
+│   ├── Aula04DesafioOperacoes.java
+│   ├── Aula05OperadoresLogicosERelacionais.java
+│   ├── Aula06EstruturasCondicionais.java
+│   ├── Aula06DesafioSistemaDePremiacao.java
 └── README.md
+```
+
 
