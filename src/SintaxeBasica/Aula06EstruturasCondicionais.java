@@ -1,4 +1,4 @@
-package introducao;
+package SintaxeBasica;
 import java.util.Scanner;
 
 public class Aula06EstruturasCondicionais {

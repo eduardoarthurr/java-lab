@@ -1,4 +1,4 @@
-package introducao;
+package SintaxeBasica;
 
 public class Aula01HelloWorld {
 
