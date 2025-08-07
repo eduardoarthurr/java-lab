@@ -28,7 +28,7 @@ Java-lab/
 │   ├── Aula04DesafioOperacoes.java
 │   ├── Aula06DesafioSistemaDePremiacao.java
 │   └── Aula06DesafioCafetaria.java
-├── introducao/
+├── SintaxeBasica/
 │   ├── Aula01HelloWorld.java
 │   ├── Aula02TiposPrimitivos.java
 │   ├── Aula03Operadores.java
