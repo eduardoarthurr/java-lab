@@ -28,17 +28,21 @@ Java-lab/
 │   ├── Aula04DesafioOperacoes.java
 │   ├── Aula06DesafioSistemaDePremiacao.java
 │   └── Aula06DesafioCafetaria.java
+├── FiapLab/
+│   ├── Aula01Menu.java
+│   ├── Aula02PersonagemMagico.java
+│   ├── Aula03HabilidadeEspecial.java
+│   ├── Aula04MenuItem.java
+│   └── Aula05ItemMagico.java
 ├── SintaxeBasica/
 │   ├── Aula01HelloWorld.java
 │   ├── Aula02TiposPrimitivos.java
 │   ├── Aula03Operadores.java
 │   ├── Aula04EntradaDeDados.java
-│   ├── Aula04DesafioAluno.java
-│   ├── Aula04DesafioOperacoes.java
 │   ├── Aula05OperadoresLogicosERelacionais.java
-│   ├── Aula06EstruturasCondicionais.java
-│   ├── Aula06DesafioSistemaDePremiacao.java
+│   └── Aula06EstruturasCondicionais.java
 └── README.md
+
 ```
 
 
