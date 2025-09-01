@@ -1,6 +1,6 @@
 package FiapLab;
 
-public class ItemMagico {
+public class Aula05ItemMagico {
 
     String nome;
 

@@ -2,12 +2,12 @@ package FiapLab;
 
 import java.util.Scanner;
 
-public class Menu {
+public class Aula01Menu {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         int escolha;
-        PersonagemMagico personagem = new PersonagemMagico();
+        Aula02PersonagemMagico personagem = new Aula02PersonagemMagico();
 
         do {
             System.out.println("Escolha uma opção:");
@@ -49,9 +49,9 @@ public class Menu {
                     System.out.println("Sua habilidade está habilitada?(true/false)");
                     boolean habilitada = scanner.nextBoolean();
 
-                    HabilidadeEspecial habilidade = new HabilidadeEspecial(nomeHabilidade,custoEnergia,habilitada);
+                    Aula03HabilidadeEspecial habilidade = new Aula03HabilidadeEspecial(nomeHabilidade,custoEnergia,habilitada);
 
-                    personagem.habilidadeEspecial = habilidade;
+                    personagem.aula03HabilidadeEspecial = habilidade;
 
                     System.out.println("Digite o nome do seu ataque:");
                     String ataque = scanner.nextLine();
@@ -64,7 +64,7 @@ public class Menu {
                     System.out.println("=============== PERSONAGEM ================");
                     System.out.println("NOME: "+ personagem.nome + " " + "PODER: " + personagem.poder + " " + "NIVEL DE ENERGIA : " + personagem.nivelEnergia );
                     System.out.println("=============== HABILIDADE ================");
-                    System.out.println("NOME: " + personagem.habilidadeEspecial.nome + " " + "CUSTO DE ENERGIA: " + personagem.habilidadeEspecial.custoEnergia + " " + "HABILITADO: " + personagem.habilidadeEspecial.habilitada );
+                    System.out.println("NOME: " + personagem.aula03HabilidadeEspecial.nome + " " + "CUSTO DE ENERGIA: " + personagem.aula03HabilidadeEspecial.custoEnergia + " " + "HABILITADO: " + personagem.aula03HabilidadeEspecial.habilitada );
 
                     break;
 
@@ -93,7 +93,7 @@ public class Menu {
                     break;
                 }
                 case 6:{
-                    personagem.habilidadeEspecial.habilitarHabilidadeEspecial();
+                    personagem.aula03HabilidadeEspecial.habilitarHabilidadeEspecial();
                 }
                 case 0:{
                     System.out.println("Finalizando programa...");

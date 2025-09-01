@@ -3,12 +3,12 @@ package FiapLab;
 import java.util.Scanner;
 
 
-public class MenuItem {
+public class Aula04MenuItem {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         int escolha;
-        ItemMagico item = new ItemMagico();
+        Aula05ItemMagico item = new Aula05ItemMagico();
 
         do{
             System.out.println("Escolha uma opção:");

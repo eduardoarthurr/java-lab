@@ -1,6 +1,6 @@
 package FiapLab;
 
-public class HabilidadeEspecial {
+public class Aula03HabilidadeEspecial {
 
     public String nome;
 
@@ -8,7 +8,7 @@ public class HabilidadeEspecial {
 
     public boolean habilitada;
 
-    public HabilidadeEspecial(String nome, int custoEnergia, boolean habilitada){
+    public Aula03HabilidadeEspecial(String nome, int custoEnergia, boolean habilitada){
 
         this.nome = nome;
         this.custoEnergia = custoEnergia;

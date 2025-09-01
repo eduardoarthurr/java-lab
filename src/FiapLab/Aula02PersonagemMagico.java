@@ -1,6 +1,6 @@
 package FiapLab;
 
-public class PersonagemMagico {
+public class Aula02PersonagemMagico {
 
     public String nome;
 
@@ -8,7 +8,7 @@ public class PersonagemMagico {
 
     public int nivelEnergia;
 
-    public HabilidadeEspecial habilidadeEspecial;
+    public Aula03HabilidadeEspecial aula03HabilidadeEspecial;
 
     public void ataque(String atacar){
         if (nivelEnergia >= 10){
@@ -26,12 +26,12 @@ public class PersonagemMagico {
     }
 
     public void ativarHabilidadeEspecial(){
-        if(!habilidadeEspecial.habilitada ){
+        if(!aula03HabilidadeEspecial.habilitada ){
             System.out.println("A habilidade especial nao está ativada.");
         }
-        else if(nivelEnergia >= habilidadeEspecial.custoEnergia){
-            System.out.println(nome + " " +"USOU SUA HABILIDADE ESPECIAL" + " " + habilidadeEspecial.nome + "!!");
-            nivelEnergia -= habilidadeEspecial.custoEnergia;
+        else if(nivelEnergia >= aula03HabilidadeEspecial.custoEnergia){
+            System.out.println(nome + " " +"USOU SUA HABILIDADE ESPECIAL" + " " + aula03HabilidadeEspecial.nome + "!!");
+            nivelEnergia -= aula03HabilidadeEspecial.custoEnergia;
         }
         else{
             System.out.println(nome + " " + "não tem energia suficiente para usar sua habilidade especial.");
